@@ -12,7 +12,6 @@ public class HourContract {
 	}
 
 	public HourContract(Date date, Double valueperHour, Integer hours) {
-		super();
 		this.date = date;
 		this.valueperHour = valueperHour;
 		this.hours = hours;
@@ -39,7 +38,7 @@ public class HourContract {
 		this.hours = hours;
 	}
 	
-	public double totalValue() {
+	public double TotalValue() {
 		return valueperHour * hours;
 	}
 }
